@@ -1,0 +1,24 @@
+.user-form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: left;
+}
+
+.user-form__element label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.user-form__element input {
+  font: inherit;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.user-form__element.invalid p {
+  color: rgb(255, 0, 0);
+}
