@@ -1,0 +1,8 @@
+.comments {
+  text-align: center;
+  list-style: none;
+}
+
+.comments > button {
+  font-size: 1.25rem;
+}
